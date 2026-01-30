@@ -47,6 +47,7 @@ export const typeDefs = gql`
     deliveryDate: String
   }
 
+  
   type ShipmentPage {
     data: [Shipment!]!
     totalCount: Int!
